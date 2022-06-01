@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0; } 
+body {background-color: rgb(193, 255, 197);}
+section #picSet { top:20px; border: 5px solid red; width: 1440px; height: 540px; position: relative; margin: 0 auto; overflow: hidden; border-radius: 20px;}  
+section #picSet img {position: absolute; top: 0; left: 0; transition: left 1s;} 
+section #picSet #pic0 { z-index: 1;}
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 57, 38);
+}
+section {
+    margin-top: 120px;
+}
+section p {
+    text-align: center;
+    padding-top: 40px;
+}
+section button {
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+section button:hover {
+    background-color: violet;
+    color: rgb(85, 4, 90);
+}
+
+#section1 #dotList {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#section1 #dotList li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#section1 #dotList li:hover {
+    background-color: gray;
+}
+/* #picSet #pic0 {left: 0;}
+#picSet #pic1 {left: 1440px;}
+#picSet #pic2 {left: 2880px;} */
+/* #picSet #pic3 {left: calc(1440px * 2);} */
